@@ -1,5 +1,5 @@
 {% set name = "jupyter-nbmodel-client" %}
-{% set version = "0.7.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: b9bc91b834280f7e0d4842e64557c8e5ebde51a119275993a2abbe900972617b
+  sha256: bb68f000603c0d7ed9d33cbdaf61c67d229d0d4c9bc1124e9e9d135ba0049b89
 
 build:
   noarch: python
